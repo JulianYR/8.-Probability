@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Probability</title>
+    </head>
+    <body>
+        
+        <div class="container">
+
+            <h1 class="text">Probability</h1>
+
+            <h2 class="text">No. of Favorable Cases</h2>
+            <input type="number" name="favorableCases" id="favorableCases" class="inputs">
+
+            <p class="text">Note: the number of favorable cases must be less than the total cases, otherwise the program will not be executed.</p>
+
+            <h2 class="text">No. of Cases</h2>
+            <input type="number" name="cases" id="cases" class="inputs">
+
+            <button id="calculate">Calculate Probability</button>
+
+            <p class="text">This probability is <span id="result" class="text"></span>%.</p>
+
+        </div>
+
+        <script src="./script.js"></script>
+
+    </body>
+</html>
